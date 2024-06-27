@@ -3,13 +3,8 @@ body {
 }
 
 .square {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   background-color: #4e9acc;
-  transition: all 2s ease-in-out;
-}
-
-.square:hover {
-  transform: rotate(45deg);
-  background-color: purple;
+  transition: transform .3s ease-in-out;
 }
