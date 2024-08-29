@@ -5,6 +5,13 @@ body {
 .square {
   width: 100px;
   height: 100px;
-  background-color: #4e9acc;
-  transition: transform 0.3s ease-in-out, background-color 0.3s;
+  background-color: gold;
+  transition: background-color 0.5s;
+  @starting-style {
+    background-color: skyblue;
+  }
+}
+
+.square.blue {
+  background-color: blue;
 }
