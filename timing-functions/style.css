@@ -17,7 +17,12 @@ body {
   height: 50px;
   background-color: greenyellow;
   /* transition: left 2s linear(0, 0.25 75%, 1); */
-  transition: left 2s linear(0, 0.25 25% 75%, 1);
+  /* transition: left 2s linear(0, 0.25 25% 75%, 1); */
+  /* transition: left 2s cubic-bezier(0.49, 0, 1, 0); */
+  /* transition: left 2s steps(4, start); */
+  /* transition: left 2s steps(1, start); */
+  /* transition: left 2s steps(1, end); */
+  transition: left 2s steps(2, jump-both);
   left: -5px;
   position: absolute;
 }
